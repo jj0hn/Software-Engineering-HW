@@ -18,3 +18,17 @@ def totalConsonants(string): #now we're going to be counting the consonant amoun
 #driver code
 string = "abc de"
 print(totalConsonants(string))
+
+#now to find the amount of vowels
+def findVowelCount(str): #method to find how many vowels. code taken from geeksforgeeks
+    count = 0 #initialize 
+    vowel = set("aeiouAEIOU") #creating set of vowels
+
+    for alphabet in str: #loop to go through the entire alphabet in the string
+            if alphabet in vowel:
+                count = count + 1
+
+    print("Number of vowels: ", count)
+
+str = "testing"
+findVowelCount(str)
