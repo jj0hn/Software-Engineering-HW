@@ -16,7 +16,7 @@ def totalConsonants(string): #now we're going to be counting the consonant amoun
 	return count
 
 #driver code
-string = "abc de"
+string = "random word"
 print(totalConsonants(string))
 
 #now to find the amount of vowels
@@ -30,5 +30,7 @@ def findVowelCount(str): #method to find how many vowels. code taken from geeksf
 
     print("Number of vowels: ", count)
 
-str = "testing"
+str = "random word"
 findVowelCount(str)
+
+print(totalConsonants == findVowelCount)
